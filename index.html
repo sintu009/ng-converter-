@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to AngularJS Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML to AngularJS Converter</h1>
+        <p>Convert inline styles to <strong>ng-style</strong>, inline JS to AngularJS event handlers.</p>
+
+        <textarea id="htmlInput" placeholder="Paste your HTML here..." rows="10"></textarea>
+
+        <button onclick="convertHTML()">Convert</button>
+
+        <h2>Converted Output:</h2>
+        <textarea id="convertedOutput" readonly rows="10"></textarea>
+        <button id="copyButton" onclick="copyToClipboard()">Copy Text</button>
+    </div>
+
+    <!-- Signature image at the right bottom corner -->
+    <img src="https://i.postimg.cc/Y09Wnxpd/sintu-kumar-2030499-signature-removebg-preview.png" alt="Signature" class="signature-image">
+
+    <script src="script.js"></script>
+</body>
+</html>
